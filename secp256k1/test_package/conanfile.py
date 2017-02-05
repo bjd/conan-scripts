@@ -7,7 +7,7 @@ username = os.getenv("CONAN_USERNAME", "bjd")
 
 class TestLibbitcoinSecp256k1Conan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
-    requires = "secp256k1/1.0.0@%s/%s" % (username, channel)
+    requires = "secp256k1/2016.12.28@%s/%s" % (username, channel)
     generators = "cmake"
 
     def build(self):
