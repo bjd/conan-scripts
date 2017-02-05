@@ -4,7 +4,7 @@ class LibSecp256k1Conan(ConanFile):
     name = "secp256k1"
     description = "Optimized C library for EC operations on curve secp256k1"
     version = "2016.12.28"
-    url = "https://github.com/bitcoin-core/secp256k1"
+    url = "https://github.com/bjd/conan-scripts.git"
     license = "MIT"
     settings = "os", "compiler", "build_type", "arch"
 
